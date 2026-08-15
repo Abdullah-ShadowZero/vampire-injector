@@ -24,7 +24,7 @@ class MainWindow(ctk.CTk):
 
         self.title("🧛 The Vampire Injector v4.0 [Eternal Nightmare]")
         self.geometry("1200x850")
-        self.resizable(False, False)
+        self.resizable(True, True)
         
         self.current_lang = "en"
         self.payload_builder = PayloadBuilder()
